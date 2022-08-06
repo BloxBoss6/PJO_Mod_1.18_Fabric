@@ -5,5 +5,9 @@
   "item.pjomod.si_ingot": "Stygian Iron Ingot",
 
   "item.pjomod.cb_rod": "Celestial Bronze Rod",
-  "item.pjomod.ig_rod": "Imperial Gold Rod"
+  "item.pjomod.ig_rod": "Imperial Gold Rod",
+
+  "block.pjomod.cb_ore": "Celestial Bronze Ore",
+  "block.pjomod.nsi_ore": "Nether Stygian Iron Ore",
+  "block.pjomod.si_ore": "Stygian Iron Ore"
 }
