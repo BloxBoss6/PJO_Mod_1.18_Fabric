@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "pjomod:cb_ingot"
+    }
+  },
+  "result": {
+    "item": "pjomod:cb_rod"
+  }
+}

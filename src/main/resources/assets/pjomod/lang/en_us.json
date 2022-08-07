@@ -9,5 +9,11 @@
 
   "block.pjomod.cb_ore": "Celestial Bronze Ore",
   "block.pjomod.nsi_ore": "Nether Stygian Iron Ore",
-  "block.pjomod.si_ore": "Stygian Iron Ore"
+  "block.pjomod.si_ore": "Stygian Iron Ore",
+
+  "item.pjomod.cb_raw": "Raw Celestial Bronze",
+  "item.pjomod.si_raw": "Raw Stygian Iron",
+
+  "itemGroup.pjomod.pjo_basics": "Percy Jackson Basics",
+  "itemGroup.pjomod.pjo_advanced": "Percy Jackson Advanced"
 }

@@ -1,6 +1,7 @@
 package net.bloxboss6.pjomod.block;
 
 import net.bloxboss6.pjomod.PJOMod;
+import net.bloxboss6.pjomod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -14,9 +15,9 @@ import org.lwjgl.system.CallbackI;
 
 public class ModBlocks {
 
-    public static final Block CB_ORE = registerBlock("cb_ore", Material.METAL, ItemGroup.MISC, 6f);
-    public static final Block NSI_ORE = registerBlock("nsi_ore", Material.METAL, ItemGroup.MISC, 6f);
-    public static final Block SI_ORE = registerBlock("si_ore", Material.METAL, ItemGroup.MISC, 6f);
+    public static final Block CB_ORE = registerBlock("cb_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
+    public static final Block NSI_ORE = registerBlock("nsi_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
+    public static final Block SI_ORE = registerBlock("si_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
 
     // Added from YouTube tutorial by Kaupenjoe
     /*
