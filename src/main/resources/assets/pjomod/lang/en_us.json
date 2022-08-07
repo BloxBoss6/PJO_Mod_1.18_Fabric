@@ -14,6 +14,14 @@
   "item.pjomod.cb_raw": "Raw Celestial Bronze",
   "item.pjomod.si_raw": "Raw Stygian Iron",
 
+  "item.pjomod.ambrosia": "Ambrosia",
+  "item.pjomod.blue_cookie": "Blue Cookie",
+  "item.pjomod.nectar_bottle": "Bottle of Nectar",
+
+  "item.pjomod.riptide_pen": "Riptide (Pen Form)",
+
   "itemGroup.pjomod.pjo_basics": "Percy Jackson Basics",
-  "itemGroup.pjomod.pjo_advanced": "Percy Jackson Advanced"
+  "itemGroup.pjomod.pjo_advanced": "Percy Jackson Advanced",
+
+  "item.pjomod.riptide_pen.edit_sign": "WIP: Will be able to edit in future."
 }
