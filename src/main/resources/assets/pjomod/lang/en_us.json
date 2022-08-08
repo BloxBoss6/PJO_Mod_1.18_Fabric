@@ -4,6 +4,10 @@
   "item.pjomod.ma_ingot": "Mixed Alloy Ingot",
   "item.pjomod.si_ingot": "Stygian Iron Ingot",
 
+  "item.pjomod.cb_nugget": "Celestial Bronze Nugget",
+  "item.pjomod.ig_nugget": "Imperial Gold Nugget",
+  "item.pjomod.si_nugget": "Stygian Iron Nugget",
+
   "item.pjomod.cb_rod": "Celestial Bronze Rod",
   "item.pjomod.ig_rod": "Imperial Gold Rod",
 
@@ -12,6 +16,7 @@
   "block.pjomod.si_ore": "Stygian Iron Ore",
 
   "item.pjomod.cb_raw": "Raw Celestial Bronze",
+  "item.pjomod.ma_raw": "Raw Mixed Alloy",
   "item.pjomod.si_raw": "Raw Stygian Iron",
 
   "item.pjomod.ambrosia": "Ambrosia",
@@ -23,5 +28,8 @@
   "itemGroup.pjomod.pjo_basics": "Percy Jackson Basics",
   "itemGroup.pjomod.pjo_advanced": "Percy Jackson Advanced",
 
-  "item.pjomod.riptide_pen.edit_sign": "WIP: Will be able to edit in future."
+  "item.pjomod.riptide_pen.edit_sign": "§4WIP:§r Will be able to edit in future.",
+  "item.pjomod.riptide_pen.tooltip": "Press §6SHIFT§r for more Information",
+  "item.pjomod.riptide_pen.tooltip.shift": "§4WIP:§r Will be able to edit signs in the future",
+  "tooltip.pjomod.cb_ore": "§l§o§6Fallen from the forges of Olympus, this metal is lethal to all born of a god.§r"
 }

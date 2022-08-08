@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "pjomod:cb_ore"
+    "tag": "pjomod:celestial_bronze"
   },
   "result": "pjomod:cb_ingot",
   "experience": 0.1,

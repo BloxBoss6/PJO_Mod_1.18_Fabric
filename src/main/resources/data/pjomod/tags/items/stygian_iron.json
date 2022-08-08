@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pjomod:si_raw",
+    "pjomod:si_ore",
+    "pjomod:nsi_ore"
+  ]
+}

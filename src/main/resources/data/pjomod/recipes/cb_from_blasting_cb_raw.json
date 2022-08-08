@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "pjomod:cb_raw"
-  },
-  "result": "pjomod:cb_ingot",
-  "experience": 0.1,
-  "cookingtime": 100
-}

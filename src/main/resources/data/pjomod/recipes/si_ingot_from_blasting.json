@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "pjomod:cb_ore"
+    "tag": "pjomod:stygian_iron"
   },
-  "result": "pjomod:cb_ingot",
+  "result": "pjomod:si_ingot",
   "experience": 0.1,
   "cookingtime": 100
 }
