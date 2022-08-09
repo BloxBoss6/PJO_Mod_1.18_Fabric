@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
 
-    public static final ItemGroup PJO_BASICS = FabricItemGroupBuilder.build(new Identifier(PJOMod.MOD_ID, "pjo_basics"), () -> new ItemStack(ModItems.CB_INGOT));
+    public static final ItemGroup PJO_BASICS = FabricItemGroupBuilder.build(new Identifier(PJOMod.MOD_ID, "pjo"), () -> new ItemStack(ModItems.CB_INGOT));
 
     // No icon when using this method. Will do more research later
     /*

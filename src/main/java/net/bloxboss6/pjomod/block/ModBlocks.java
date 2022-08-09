@@ -23,9 +23,9 @@ import java.util.List;
 
 public class ModBlocks {
 
-    public static final Block CB_ORE = registerBlock("cb_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f, "tooltip.pjomod.cb_ore");
-    public static final Block NSI_ORE = registerBlock("nsi_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
-    public static final Block SI_ORE = registerBlock("si_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
+    public static final Block CB_ORE = registerBlock("celestial_bronze_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f, "tooltip.pjomod.celestial_bronze_ore");
+    public static final Block NSI_ORE = registerBlock("stygian_iron_nether_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
+    public static final Block SI_ORE = registerBlock("stygian_iron_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
 
     // Added from YouTube tutorial by Kaupenjoe
     /*

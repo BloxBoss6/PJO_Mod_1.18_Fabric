@@ -2,9 +2,13 @@ package net.bloxboss6.pjomod.item;
 
 import net.bloxboss6.pjomod.PJOMod;
 import net.bloxboss6.pjomod.item.custom.RiptidePenItem;
-import net.bloxboss6.pjomod.item.template.DrinkItem;
+import net.bloxboss6.pjomod.item.template.ModAxeItem;
+import net.bloxboss6.pjomod.item.template.ModDrinkItem;
+import net.bloxboss6.pjomod.item.template.ModHoeItem;
+import net.bloxboss6.pjomod.item.template.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
@@ -19,29 +23,51 @@ import java.util.List;
 public class ModItems {
 
     // Basic Items
-    public static final Item CB_INGOT = registerItem("cb_ingot", ModItemGroup.PJO_BASICS);
-    public static final Item IG_INGOT = registerItem("ig_ingot", ModItemGroup.PJO_BASICS);
-    public static final Item MA_INGOT = registerItem("ma_ingot", ModItemGroup.PJO_BASICS);
-    public static final Item SI_INGOT = registerItem("si_ingot", ModItemGroup.PJO_BASICS);
+    public static final Item CB_INGOT = registerItem("celestial_bronze_ingot", ModItemGroup.PJO_BASICS);
+    public static final Item IG_INGOT = registerItem("imperial_gold_ingot", ModItemGroup.PJO_BASICS);
+    public static final Item MA_INGOT = registerItem("mixed_alloy_ingot", ModItemGroup.PJO_BASICS);
+    public static final Item SI_INGOT = registerItem("stygian_iron_ingot", ModItemGroup.PJO_BASICS);
 
-    public static final Item CB_RAW = registerItem("cb_raw", ModItemGroup.PJO_BASICS);
-    public static final Item MA_RAW = registerItem("ma_raw", ModItemGroup.PJO_BASICS);
-    public static final Item SI_RAW = registerItem("si_raw", ModItemGroup.PJO_BASICS);
+    public static final Item CB_RAW = registerItem("celestial_bronze_raw", ModItemGroup.PJO_BASICS);
+    public static final Item MA_RAW = registerItem("mixed_alloy_raw", ModItemGroup.PJO_BASICS);
+    public static final Item SI_RAW = registerItem("stygian_iron_raw", ModItemGroup.PJO_BASICS);
 
-    public static final Item CB_NUGGET = registerItem("cb_nugget", ModItemGroup.PJO_BASICS);
-    public static final Item IG_NUGGET = registerItem("ig_nugget", ModItemGroup.PJO_BASICS);
-    public static final Item SI_NUGGET = registerItem("si_nugget", ModItemGroup.PJO_BASICS);
+    public static final Item CB_NUGGET = registerItem("celestial_bronze_nugget", ModItemGroup.PJO_BASICS);
+    public static final Item IG_NUGGET = registerItem("imperial_gold_nugget", ModItemGroup.PJO_BASICS);
+    public static final Item SI_NUGGET = registerItem("stygian_iron_nugget", ModItemGroup.PJO_BASICS);
 
-    public static final Item CB_ROD = registerItem("cb_rod", ModItemGroup.PJO_BASICS);
-    public static final Item IG_ROD = registerItem("ig_rod", ModItemGroup.PJO_BASICS);
+    public static final Item CB_ROD = registerItem("celestial_bronze_rod", ModItemGroup.PJO_BASICS);
+    public static final Item IG_ROD = registerItem("imperial_gold_rod", ModItemGroup.PJO_BASICS);
 
     public static final Item AMBROSIA = registerItem("ambrosia", new Item(
             new FabricItemSettings().group(ModItemGroup.PJO_BASICS).food(ModFoodComponents.AMBROSIA)));
     public static final Item BLUE_COOKIE = registerItem("blue_cookie", new Item(
             new FabricItemSettings().group(ModItemGroup.PJO_BASICS).food(ModFoodComponents.BLUE_COOKIE)));
-    public static final Item NECTAR_BOTTLE = registerItem("nectar_bottle", new DrinkItem(
+    public static final Item NECTAR_BOTTLE = registerItem("nectar_bottle", new ModDrinkItem(
             new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE).food(ModFoodComponents.NECTAR_BOTTLE)
                     .group(ModItemGroup.PJO_BASICS).maxCount(16)));
+
+    // Tools
+    public static final Item CB_SWORD = registerItem("celestial_bronze_sword", new SwordItem(
+            ModToolMaterials.CELESTIAL_BRONZE,3,-2.4f, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item CB_AXE = registerItem("celestial_bronze_axe", new ModAxeItem(
+            ModToolMaterials.CELESTIAL_BRONZE,5,-3.0f, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item CB_HOE = registerItem("celestial_bronze_hoe", new ModHoeItem(
+            ModToolMaterials.CELESTIAL_BRONZE,-3,0f, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item CB_SHOVEL = registerItem("celestial_bronze_shovel", new ShovelItem(
+            ModToolMaterials.CELESTIAL_BRONZE,1.5F,-3.0f, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item CB_PICKAXE = registerItem("celestial_bronze_pickaxe", new ModPickaxeItem(
+            ModToolMaterials.CELESTIAL_BRONZE,1,-2.8f, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+
+    // Armor
+    public static final Item CB_HELMET = registerItem("celestial_bronze_helmet", new ArmorItem(
+            ModArmorMaterials.CELESTIAL_BRONZE, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item CB_CHESTPLATE = registerItem("celestial_bronze_chestplate", new ArmorItem(
+            ModArmorMaterials.CELESTIAL_BRONZE, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item CB_LEGGINGS = registerItem("celestial_bronze_leggings", new ArmorItem(
+            ModArmorMaterials.CELESTIAL_BRONZE, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item CB_BOOTS = registerItem("celestial_bronze_boots", new ArmorItem(
+            ModArmorMaterials.CELESTIAL_BRONZE, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
 
     // Advanced Items
     public static final Item RIPTIDE_PEN = registerItem("riptide_pen", new RiptidePenItem(

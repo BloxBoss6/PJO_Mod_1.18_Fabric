@@ -37,7 +37,7 @@ public class RiptidePenItem extends Item {
             Block blockClicked = context.getWorld().getBlockState(positionClicked).getBlock();
 
             if(isSign(blockClicked)) {
-                player.sendMessage(new TranslatableText("item.pjomod.riptide_pen.edit_sign"), false);
+                player.sendMessage(new TranslatableText("info.pjomod.riptide_pen.edit_sign"), false);
             }
 
         }
@@ -52,9 +52,9 @@ public class RiptidePenItem extends Item {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if(Screen.hasShiftDown()) {
-            tooltip.add(new TranslatableText("item.pjomod.riptide_pen.tooltip.shift"));
+            tooltip.add(new TranslatableText("tooltip.pjomod.riptide_pen.shift"));
         } else {
-            tooltip.add(new TranslatableText("item.pjomod.riptide_pen.tooltip"));
+            tooltip.add(new TranslatableText("tooltip.pjomod.riptide_pen"));
         }
     }
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "pjomod:stygian_iron"
+  },
+  "result": "pjomod:stygian_iron_ingot",
+  "experience": 0.1,
+  "cookingtime": 100
+}

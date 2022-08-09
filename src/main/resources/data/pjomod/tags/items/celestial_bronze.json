@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "pjomod:cb_raw",
-    "pjomod:cb_ore"
+    "pjomod:celestial_bronze_raw",
+    "pjomod:celestial_bronze_ore"
   ]
 }

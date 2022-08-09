@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "pjomod:si_raw",
-    "pjomod:si_ore",
-    "pjomod:nsi_ore"
+    "pjomod:stygian_iron_raw",
+    "pjomod:stygian_iron_ore",
+    "pjomod:stygian_iron_nether_ore"
   ]
 }

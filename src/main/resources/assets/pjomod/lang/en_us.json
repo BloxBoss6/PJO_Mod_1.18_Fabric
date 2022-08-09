@@ -1,35 +1,45 @@
 {
-  "item.pjomod.cb_ingot": "Celestial Bronze Ingot",
-  "item.pjomod.ig_ingot": "Imperial Gold Ingot",
-  "item.pjomod.ma_ingot": "Mixed Alloy Ingot",
-  "item.pjomod.si_ingot": "Stygian Iron Ingot",
+  "item.pjomod.celestial_bronze_ingot": "Celestial Bronze Ingot",
+  "item.pjomod.imperial_gold_ingot": "Imperial Gold Ingot",
+  "item.pjomod.mixed_alloy_ingot": "Mixed Alloy Ingot",
+  "item.pjomod.stygian_iron_ingot": "Stygian Iron Ingot",
 
-  "item.pjomod.cb_nugget": "Celestial Bronze Nugget",
-  "item.pjomod.ig_nugget": "Imperial Gold Nugget",
-  "item.pjomod.si_nugget": "Stygian Iron Nugget",
+  "item.pjomod.celestial_bronze_nugget": "Celestial Bronze Nugget",
+  "item.pjomod.imperial_gold_nugget": "Imperial Gold Nugget",
+  "item.pjomod.stygian_iron_nugget": "Stygian Iron Nugget",
 
-  "item.pjomod.cb_rod": "Celestial Bronze Rod",
-  "item.pjomod.ig_rod": "Imperial Gold Rod",
+  "item.pjomod.celestial_bronze_rod": "Celestial Bronze Rod",
+  "item.pjomod.imperial_gold_rod": "Imperial Gold Rod",
 
-  "block.pjomod.cb_ore": "Celestial Bronze Ore",
-  "block.pjomod.nsi_ore": "Nether Stygian Iron Ore",
-  "block.pjomod.si_ore": "Stygian Iron Ore",
+  "block.pjomod.celestial_bronze_ore": "Celestial Bronze Ore",
+  "block.pjomod.stygian_iron_nether_ore": "Nether Stygian Iron Ore",
+  "block.pjomod.stygian_iron_ore": "Stygian Iron Ore",
 
-  "item.pjomod.cb_raw": "Raw Celestial Bronze",
-  "item.pjomod.ma_raw": "Raw Mixed Alloy",
-  "item.pjomod.si_raw": "Raw Stygian Iron",
+  "item.pjomod.celestial_bronze_raw": "Raw Celestial Bronze",
+  "item.pjomod.mixed_alloy_raw": "Raw Mixed Alloy",
+  "item.pjomod.stygian_iron_raw": "Raw Stygian Iron",
 
   "item.pjomod.ambrosia": "Ambrosia",
   "item.pjomod.blue_cookie": "Blue Cookie",
   "item.pjomod.nectar_bottle": "Bottle of Nectar",
 
+  "item.pjomod.celestial_bronze_sword": "Celestial Bronze Sword",
+  "item.pjomod.celestial_bronze_axe": "Celestial Bronze Axe",
+  "item.pjomod.celestial_bronze_shovel": "Celestial Bronze Shovel",
+  "item.pjomod.celestial_bronze_hoe": "Celestial Bronze Hoe",
+  "item.pjomod.celestial_bronze_pickaxe": "Celestial Bronze Pickaxe",
+
+  "item.pjomod.celestial_bronze_helmet": "Celestial Bronze Helmet",
+  "item.pjomod.celestial_bronze_chestplate": "Celestial Bronze Chestplate",
+  "item.pjomod.celestial_bronze_leggings": "Celestial Bronze Leggings",
+  "item.pjomod.celestial_bronze_boots": "Celestial Bronze Boots",
+
   "item.pjomod.riptide_pen": "Riptide (Pen Form)",
 
-  "itemGroup.pjomod.pjo_basics": "Percy Jackson Basics",
-  "itemGroup.pjomod.pjo_advanced": "Percy Jackson Advanced",
+  "itemGroup.pjomod.pjo": "Percy Jackson",
 
-  "item.pjomod.riptide_pen.edit_sign": "§4WIP:§r Will be able to edit in future.",
-  "item.pjomod.riptide_pen.tooltip": "Press §6SHIFT§r for more Information",
-  "item.pjomod.riptide_pen.tooltip.shift": "§4WIP:§r Will be able to edit signs in the future",
-  "tooltip.pjomod.cb_ore": "§l§o§6Fallen from the forges of Olympus, this metal is lethal to all born of a god.§r"
+  "info.pjomod.riptide_pen.edit_sign": "§4WIP:§r Will be able to edit in future.",
+  "tooltip.pjomod.riptide_pen": "Press §6SHIFT§r for more Information",
+  "tooltip.pjomod.riptide_pen.shift": "§4WIP:§r Will be able to edit signs in the future",
+  "tooltip.pjomod.celestial_bronze_ore": "§l§o§6Fallen from the forges of Olympus, this metal is lethal to all born of a god.§r"
 }

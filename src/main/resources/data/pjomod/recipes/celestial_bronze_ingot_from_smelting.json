@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "pjomod:celestial_bronze"
+  },
+  "result": "pjomod:celestial_bronze_ingot",
+  "experience": 0.1,
+  "cookingtime": 200
+}

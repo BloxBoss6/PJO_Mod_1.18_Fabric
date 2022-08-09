@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "pjomod:cb_ore",
-    "pjomod:nsi_ore",
-    "pjomod:si_ore"
+    "pjomod:celestial_bronze_ore",
+    "pjomod:stygian_iron_nether_ore",
+    "pjomod:stygian_iron_ore"
   ]
 }
