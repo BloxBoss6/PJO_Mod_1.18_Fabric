@@ -1,16 +1,18 @@
 package net.bloxboss6.pjomod.block;
 
 import net.bloxboss6.pjomod.PJOMod;
+import net.bloxboss6.pjomod.block.custom.DragonToothBlock;
+import net.bloxboss6.pjomod.block.custom.LaurelBushBlock;
 import net.bloxboss6.pjomod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Identifier;
@@ -23,9 +25,16 @@ import java.util.List;
 
 public class ModBlocks {
 
+    // Ore
     public static final Block CB_ORE = registerBlock("celestial_bronze_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f, "tooltip.pjomod.celestial_bronze_ore");
     public static final Block NSI_ORE = registerBlock("stygian_iron_nether_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
     public static final Block SI_ORE = registerBlock("stygian_iron_ore", Material.METAL, ModItemGroup.PJO_BASICS, 6f);
+
+    // Crops
+    public static final Block DRAGON_TOOTH = registerBlockWithoutItem("dragon_tooth", new DragonToothBlock(
+            FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()));
+    public static final Block LAUREL_BUSH = registerBlockWithoutItem("laurel_bush", new LaurelBushBlock(
+            FabricBlockSettings.of(Material.PLANT).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).nonOpaque()));
 
     // Added from YouTube tutorial by Kaupenjoe
     /*
@@ -69,6 +78,10 @@ public class ModBlocks {
                         tooltip.add(new TranslatableText(tooltipKey));
                     }
                 });
+    }
+
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registry.BLOCK, new Identifier(PJOMod.MOD_ID, name), block);
     }
 
     public static void registerModBlocks() {

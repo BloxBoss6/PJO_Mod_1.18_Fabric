@@ -1,6 +1,7 @@
 package net.bloxboss6.pjomod.item;
 
 import net.bloxboss6.pjomod.PJOMod;
+import net.bloxboss6.pjomod.block.ModBlocks;
 import net.bloxboss6.pjomod.item.custom.RiptidePenItem;
 import net.bloxboss6.pjomod.item.template.ModAxeItem;
 import net.bloxboss6.pjomod.item.template.ModDrinkItem;
@@ -39,14 +40,6 @@ public class ModItems {
     public static final Item CB_ROD = registerItem("celestial_bronze_rod", ModItemGroup.PJO_BASICS);
     public static final Item IG_ROD = registerItem("imperial_gold_rod", ModItemGroup.PJO_BASICS);
 
-    public static final Item AMBROSIA = registerItem("ambrosia", new Item(
-            new FabricItemSettings().group(ModItemGroup.PJO_BASICS).food(ModFoodComponents.AMBROSIA)));
-    public static final Item BLUE_COOKIE = registerItem("blue_cookie", new Item(
-            new FabricItemSettings().group(ModItemGroup.PJO_BASICS).food(ModFoodComponents.BLUE_COOKIE)));
-    public static final Item NECTAR_BOTTLE = registerItem("nectar_bottle", new ModDrinkItem(
-            new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE).food(ModFoodComponents.NECTAR_BOTTLE)
-                    .group(ModItemGroup.PJO_BASICS).maxCount(16)));
-
     // Tools
     public static final Item CB_SWORD = registerItem("celestial_bronze_sword", new SwordItem(
             ModToolMaterials.CELESTIAL_BRONZE,3,-2.4f, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
@@ -68,6 +61,22 @@ public class ModItems {
             ModArmorMaterials.CELESTIAL_BRONZE, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
     public static final Item CB_BOOTS = registerItem("celestial_bronze_boots", new ArmorItem(
             ModArmorMaterials.CELESTIAL_BRONZE, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+
+    // Food
+    public static final Item AMBROSIA = registerItem("ambrosia", new Item(
+            new FabricItemSettings().group(ModItemGroup.PJO_BASICS).food(ModFoodComponents.AMBROSIA)));
+    public static final Item BLUE_COOKIE = registerItem("blue_cookie", new Item(
+            new FabricItemSettings().group(ModItemGroup.PJO_BASICS).food(ModFoodComponents.BLUE_COOKIE)));
+    public static final Item NECTAR_BOTTLE = registerItem("nectar_bottle", new ModDrinkItem(
+            new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE).food(ModFoodComponents.NECTAR_BOTTLE)
+                    .group(ModItemGroup.PJO_BASICS).maxCount(16)));
+
+    // Plants
+    public static final Item DRAGON_TOOTH_SEEDS = registerItem("dragon_tooth_seeds", new AliasedBlockItem(
+            ModBlocks.DRAGON_TOOTH, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
+    public static final Item LAUREL = registerItem("laurel", ModItemGroup.PJO_BASICS);
+    public static final Item LAUREL_SEEDS = registerItem("laurel_seeds", new AliasedBlockItem(
+            ModBlocks.LAUREL_BUSH, new FabricItemSettings().group(ModItemGroup.PJO_BASICS)));
 
     // Advanced Items
     public static final Item RIPTIDE_PEN = registerItem("riptide_pen", new RiptidePenItem(

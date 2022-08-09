@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.bloxboss6.pjomod.PJOMod"
+    ],
+    "client": [
+      "net.bloxboss6.pjomod.PJOClientMod"
     ]
   },
   "mixins": [

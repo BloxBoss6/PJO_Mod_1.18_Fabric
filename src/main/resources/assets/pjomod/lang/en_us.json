@@ -11,10 +11,6 @@
   "item.pjomod.celestial_bronze_rod": "Celestial Bronze Rod",
   "item.pjomod.imperial_gold_rod": "Imperial Gold Rod",
 
-  "block.pjomod.celestial_bronze_ore": "Celestial Bronze Ore",
-  "block.pjomod.stygian_iron_nether_ore": "Nether Stygian Iron Ore",
-  "block.pjomod.stygian_iron_ore": "Stygian Iron Ore",
-
   "item.pjomod.celestial_bronze_raw": "Raw Celestial Bronze",
   "item.pjomod.mixed_alloy_raw": "Raw Mixed Alloy",
   "item.pjomod.stygian_iron_raw": "Raw Stygian Iron",
@@ -22,6 +18,10 @@
   "item.pjomod.ambrosia": "Ambrosia",
   "item.pjomod.blue_cookie": "Blue Cookie",
   "item.pjomod.nectar_bottle": "Bottle of Nectar",
+
+  "item.pjomod.dragon_tooth_seeds": "Dragon Tooth",
+  "item.pjomod.laurel": "Laurel",
+  "item.pjomod.laurel_seeds": "Laurel Seeds",
 
   "item.pjomod.celestial_bronze_sword": "Celestial Bronze Sword",
   "item.pjomod.celestial_bronze_axe": "Celestial Bronze Axe",
@@ -35,6 +35,13 @@
   "item.pjomod.celestial_bronze_boots": "Celestial Bronze Boots",
 
   "item.pjomod.riptide_pen": "Riptide (Pen Form)",
+
+  "block.pjomod.celestial_bronze_ore": "Celestial Bronze Ore",
+  "block.pjomod.stygian_iron_nether_ore": "Nether Stygian Iron Ore",
+  "block.pjomod.stygian_iron_ore": "Stygian Iron Ore",
+
+  "block.pjomod.dragon_tooth": "Dragon Tooth",
+  "block.pjomod.laurel_bush": "Laurel Bush",
 
   "itemGroup.pjomod.pjo": "Percy Jackson",
 

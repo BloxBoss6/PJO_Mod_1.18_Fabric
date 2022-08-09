@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "pjomod:block/dragon_tooth_stage0" },
+    "age=1": { "model": "pjomod:block/dragon_tooth_stage1" },
+    "age=2": { "model": "pjomod:block/dragon_tooth_stage1" },
+    "age=3": { "model": "pjomod:block/dragon_tooth_stage2" },
+    "age=4": { "model": "pjomod:block/dragon_tooth_stage2" },
+    "age=5": { "model": "pjomod:block/dragon_tooth_stage3" },
+    "age=6": { "model": "pjomod:block/dragon_tooth_stage3" },
+    "age=7": { "model": "pjomod:block/dragon_tooth_stage4" }
+  }
+}
