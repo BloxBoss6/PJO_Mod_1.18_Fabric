@@ -48,5 +48,9 @@
   "info.pjomod.riptide_pen.edit_sign": "§4WIP:§r Will be able to edit in future.",
   "tooltip.pjomod.riptide_pen": "Press §6SHIFT§r for more Information",
   "tooltip.pjomod.riptide_pen.shift": "§4WIP:§r Will be able to edit signs in the future",
-  "tooltip.pjomod.celestial_bronze_ore": "§l§o§6Fallen from the forges of Olympus, this metal is lethal to all born of a god.§r"
+  "tooltip.pjomod.celestial_bronze_ore": "§l§o§6Fallen from the forges of Olympus, this metal is lethal to all born of a god.§r",
+
+  "command.pjomod.parentage.set": "§6Set Parentage to %s",
+  "command.pjomod.parentage.get": "§6Parentage is %s",
+  "command.pjomod.parentage.error": "§l§4Parentage is not set"
 }

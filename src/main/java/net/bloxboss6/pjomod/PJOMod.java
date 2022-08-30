@@ -2,6 +2,7 @@ package net.bloxboss6.pjomod;
 
 import net.bloxboss6.pjomod.block.ModBlocks;
 import net.bloxboss6.pjomod.item.ModItems;
+import net.bloxboss6.pjomod.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,7 @@ public class PJOMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuffs();
 	}
 }

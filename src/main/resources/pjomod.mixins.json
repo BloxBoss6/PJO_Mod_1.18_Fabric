@@ -4,6 +4,7 @@
   "package": "net.bloxboss6.pjomod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ModEntityDataSaver"
   ],
   "client": [
     "ExampleMixin"
